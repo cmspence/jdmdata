@@ -9,7 +9,7 @@ Created on Thu Jun 28 09:12:03 2018
 
 import pandas as pd
 import numpy as np
-from riskanalysistools import *
+from jdmtools import *
 import pickle
 
 

@@ -34,20 +34,17 @@ The script will also create several pdf- and png-formatted figures.
 
 fig1: Example tradeoff diagram with reference Pareto set and example points.
 
-fig3: Violin plots comparing contextual groups' Pareto scores at each number of objectives. Upper plot:
+fig5: Violin plots comparing contextual groups' Pareto scores at each number of objectives. Upper plot:
   two objectives. Lower plot: three objectives.
+  
+fig6: Three vertically-stacked Violin plots comparing contextual groups' Preference scores at each number of 
+  objectives. Plots each display the comparison at one number of levers, moving from one lever to three levers
+  from top to bottom.
 
 fig7: Violin plot comparing evonomic benefits/A achieved at one-objective decision stage among different
   numbers of levers and between problem contextual framing groups.
   
-fig8: Stacked bar chart comparing problem interpretation codes between natural resources framing, context-
-  neutral framing
-  
-fig9: Violin plot comparing economic benefits/A achieved at one-objective decision stage among different
-  numbers of levers and between the group of participants whose responses coded as "OO" and those whose
-  responses did not.
-  
-fig10: Scatterplot on a tradeoff diagramcomparing strategies with "Other Objectives" flag in one-objective 
+fig8: Scatterplot on a tradeoff diagramcomparing strategies with "Other Objectives" flag in one-objective 
   stage with same participants' 2-objective strategies in 2-D space.
   
 In the Python workspace, the script will produce several summary statistics. 

@@ -23,8 +23,30 @@ change the directory in line 21 to point to the uncompressed "download-3" folder
 and on line 9, set the working directory to the folder in which "JDM.py" is stored.
 
 ## Running
-Run the "JDM.py" script.
+Run the "JDM.py" script. 
 
 ## Output
+The script will produce several output files, all of which will save in the working directory.
+First, the script will produce twelve Python pickle-format files (.pkl) storing the hierarchically
+structured data on participants' demonstrated preferences and Pareto dominance. 
 
+The script will also create several pdf- and png-formatted figures. 
+fig1: Example tradeoff diagram with reference Pareto set and example points.
+fig7: Violin plot comparing evonomic benefits/A achieved at one-objective decision stage among different
+  numbers of levers and between problem contextual framing groups.
+fig8: Stacked bar chart comparing problem interpretation codes between natural resources framing, context-
+  neutral framing
+fig9: Violin plot comparing economic benefits/A achieved at one-objective decision stage among different
+  numbers of levers and between the group of participants whose responses coded as "OO" and those whose
+  responses did not.
+fig10: fig1: Scatterplot on a tradeoff diagramcomparing strategies with "Other Objectives" flag in one-objective 
+  stage with same participants' 2-objective strategies in 2-D space.
+  
+In the Python workspace, the script will produce several summary statistics. 
+First, the script will store the results of the two-sided Kolmogorov-Smirnov test on the distributions of 
+Pareto scores of the strategies at each number of levers compared between the two problem framints as 
+"KS_scores_1obj." The first row of this array contains the results at the one-lever stage, the second row
+the results of the test at the two-lever stage, and the third row the results at the three-lever stage.
+The script will also calculate the percentage of strategies within each response code under the system dynamics
+threshold and near the system dynamics threshold as as "percent_near_[code]" and "percent_under_[code]."
 

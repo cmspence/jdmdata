@@ -15,7 +15,7 @@ February 5, 2021). In order to function properly, please follow the step 1 and 2
 https://github.com/Project-Platypus/Rhodium/blob/master/INSTALL.md. Once Rhodium has been installed, you
 will need to find and open the included "*/rhodium/classification.py". Within "classification.py", comment
 out the line that reads "from sklearn.externals.six import StringIO", and add a line that reads
-"from six import StringIO". Save an close the file.
+"from six import StringIO". Save and close the file.
 
 From within where jdmdata was downloaded, create a folder called "jdmtools". Move "jdmtools.py" and
 "__init__.py" into the new directory. Uncompress the "download-3.zip" file. Open the "JDM.py" script and
